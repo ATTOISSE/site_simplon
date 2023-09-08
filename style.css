@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    width: 100%;
+    height: 65px;
+    margin: auto;
+    background: #f6f6f6;
+}
+.logo{
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+}
+
+.menu{
+    width: 800px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li, ul .bi-search{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    color: #000;
+}
+li a:hover, a:active{
+    color: #e91768;
+    border-bottom: #e91768 5px solid;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.bi-search{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.contact .btn-contact{
+    width: 100px;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #e91768;
+    border: #e91768 1px solid;
+    color: #f6f6f6;
+}
+.contact{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.bi-caret-down-fill{
+    color: #e91768;
+    font-size: 10px;
+}
+h1{
+    color: #e91768;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.ouverture p{
+    margin-left: 20%;
+    font-size: 30px;
+    position: absolute;
+    padding-left: 55%;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+.ouverture h2,p{
+    z-index: 5;
+    position: absolute;
+    padding-left: 25%;
+    color: #f6f6f6;
+}
+
+.rectangle-2-u3m {
+    background-color: rgba(217, 60, 60, 0.6999999881);
+    border-radius: 0 0 100px 0;
+    height: 120px;
+    left: 0;
+    position: absolute;
+    width: 470px;
+    top: 260px;
+}
+  .rectangle-1-NT9 {
+    background-color: #d93b3b;
+    border-radius: 0 0 100px 0;
+    height: 120px;
+    left: 0;
+    position: absolute;
+    width: 470px;
+    top: 250px;
+}
+  .rectangle-3-WJT {
+    background-color: rgba(217, 60, 60, 0.5);
+    border-radius: 0 0 100px 0;
+    height: 120px;
+    left: 0;
+    position: absolute;
+    width: 470px;
+    top: 270px;
+  }
+  .lorem {
+    left: 50%;
+    height: 300px;
+    position: relative;
+    top: 60px;
+    width: 500px;
+}
+.rectangle-4-2rT {
+    background-color: #d93c3c;
+    border-radius: 1.5rem;
+    transform: rotate(5deg);
+    width: 380px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 450px;
+}
+.rectangle-5-Joy {
+    background-color: #f6f6f6;
+    border-radius: 1.5rem;
+    width: 380px;
+    left: 20px;
+    position: absolute;
+    top: 10px;
+    height: 450px;
+}
+.p {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'cambria';
+    height: 100px;
+    left: 30%;
+    top: 270px;
+    width: 400px;
+}
+.carousselle .petitpt{
+    width: 10px;
+    height: 10px;
+    background-color: #e91768;
+    border-radius: 50%;
+}
+.carousselle .grandpt, .petitpt{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 280px;
+}
+.carousselle .grandpt{
+    width: 40px;
+    height: 10px;
+    background-color: #e91768;
+    border-radius: 15px;
+}
+.carousselle{
+    margin-left: 47%;
+    padding-bottom: 20px;
+}
+
+.section2{
+    background-color: #f6f6f6;
+    height: 220vh;
+}
+.section2 h1{
+    margin-top: 20px;
+}
+.section2 .pedagogie .video{
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+}
+.pedagogie p{
+    width: 500px;
+    color: #000;
+    font-family: 'cambria';
+    left: 30%;
+    margin-top: 30px;
+}
+.pedagogie span{
+    color: #e91768;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.moyenpt{
+    width: 100px;
+    height: 10px;
+    background-color: #e91768;
+    border-radius: 15px;
+    margin-top: 400px;
+    margin-left: 45%;
+}
+.pilier{
+    width: 700px;
+}
+.pilier h2{
+    margin-top: 50px;
+    color: #e91768;
+    margin-left: 100px;
+}
+.gride .p-pilier{
+    font-size: 50px;
+    left: 0;
+    color: #e91768;
+    font-weight: bolder;
+}
+.gride{
+    width: 300px;  
+    float: left;
+}
+.gride span{
+    font-family: 'cambria';
+    font-size: 12px;
+    text-align: justify;
+}
+.gride{  
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 10px 30px 10px;
+    border-bottom: #e91768 5px solid;
+}
+.acote-gride{
+    width: 400px;
+    height: 550px;
+    float: left;
+    margin-top: -387px;
+    margin-left: 100px;
+    position: relative;
+}
+.acote-gride .rectagle-acote-gride1{
+    width: 300px;
+    height: 560px;
+    border-radius: 15px;
+    margin-left: 20px;
+    background: #e91768;   
+}
+.acote-gride .rectagle-acote-gride2{
+    width: 300px;
+    height: 560px;
+    border-radius: 15px;
+    margin-top: -545px;
+    background: url('images/image-pedagogie.PNG'); 
+}
+
+.respect{
+    width: 510px;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+    padding-right: 80px;
+}
+.respect h2{
+    padding-bottom: 20px;
+    color: #e91768;
+    text-align: center;
+}
+.respect span{
+    font-family: 'cambria';
+}
+.btn-voir-plus{
+    width: 100px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #e91768;
+    border: #e91768 1px solid;
+    color: #f6f6f6;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.gride-global-respect{
+    margin-top: 30px;
+}
+.gride-respect{
+    margin-top: 10px;
+    float: left;
+    width: 450px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.gride-respect .p-pilier{
+    float: left;
+    font-size: 30px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 50%;
+    color: #e91768;
+    font-weight: bolder;
+}
+
+.gride-respect span{
+    margin-left: 20px;
+}
+.gride-respect .span-respect{
+    font-size: 30px;
+}
+.bi-caret-left-fill{
+    font-size: 40px;
+    color: #e91768;
+    float: left;
+    margin-top: 20px;
+}
+.gride-i{
+    display: inline-block;
+    margin-left: -40px;
+}
+.section4 h1{
+    clear: left;
+}
+
+.section4 h1{
+    margin-top: 300px;
+}
+
+.card-chiffre{
+    width: 100%;
+    height: 140px;
+    background-color: #e91768;
+    margin-top: 70px;
+}
+
+.span-chiffre{
+    padding-left: 200px;
+    padding-top: 20px;
+    color: #f6f6f6;
+    float: left;
+}
+
+.card-chiffre h3{
+    font-size: 50px;
+}
+
+.equipe{
+    margin-top: 70px;
+}
+
+.equipe p{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 75px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.formateur-coach{
+    margin-left: 100px;
+}
+.equipe-type{
+    background: #f6f6f6;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 140px;
+    float: left;
+}
+.equipe-type img{
+    border-radius: 50%;
+}
+.equipe-type .h4{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.equipe-type .span{
+    color: #e91768;
+    font-family: 'cambria';
+    font-weight: bold;
+}
+.icon{
+    padding-left: 20px;
+}
+.icon .bi{
+    padding-left: 30px;
+    color: #e91768;
+    font-size: 20px;
+}
+.carousselle-2{
+    clear: left;  
+    margin-left: 40%;
+}
+.carousselle-2 .petitpt{
+    width: 10px;
+    height: 10px;
+    background-color: #e91768;
+    border-radius: 50%;
+}
+.carousselle-2 .grandpt, .petitpt{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.carousselle-2 .grandpt{
+    width: 40px;
+    height: 10px;
+    background-color: #e91768;
+    border-radius: 15px;
+}
+.section6 h1{
+    padding-top: 30px;
+}
+.recrutement img{
+    float: left;
+    margin: 40px 0 0 50px;
+    padding-bottom: 50px;
+}
+
+.rejoindre{
+    width: 500px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.titre-span-recrutement{
+    color: #e91768;
+    font-size: 18px;
+    font-weight: bold;
+}
+.rejoindre .p{
+    font-family: 'cambria';
+}
+
+.offre-cours{
+    clear: left;
+    background: rgb(248, 197, 206,0.3);
+    width: 480px;
+    margin-left: 40px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.offre-cours h2{
+    color: #e91768;
+}
+.offre-cours h4{
+    padding-top: 15px;
+}
+hr{
+    width: 470px;
+    border-color: #f5aec9;
+    margin-top: 15px;
+}
+.span-resume{
+    color: #e91768;
+}
+.offre-cours .p{
+    font-family: 'cambria';
+}
+
+.calendrier{
+    float: right;
+    margin-top: -140px;
+    background: #fff;
+    border-radius: 15px;
+    margin-right: 40px;
+    padding: 10px 10px 0 10px;
+}
+.calendrier .bi{
+    color: #e91768;
+}
+
+.calendrier .bi, span{
+    padding-left: 10px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #e91768;
+    border: #e91768 1px solid;
+    color: #f6f6f6;
+    margin: 30px 0 15px 150px;
+}
+.postuler .bi{
+    color: #e91768;
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.postuler .p{
+    margin-left: 68%;
+}
+
+.input{
+    height: 40px;
+    width: 200px;
+    margin: 5px;
+    padding-left: 20px;
+}
+textarea{
+    width: 440px;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+form{
+    float: right;
+    margin-top: -500px;
+}
+form .btn-form{
+    width: 100px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #e91768;
+    border: #e91768 1px solid;
+    color: #f6f6f6;
+}
+
+section h1{
+    padding-top: 30px;
+}
+.partenaire{
+    margin-left: 40px;
+}
+.partenaire img{
+    padding: 70px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: #e91768;
+    margin-top: 0;
+}
+footer span{
+    color: white;
+    padding: 20px 0 0 20px;
+}
+.coeur{
+    margin-left: 700px;
+}
